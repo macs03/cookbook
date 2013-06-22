@@ -1,0 +1,222 @@
+body {
+
+	background-color: #FFFFFF;
+}
+
+div.titulo {
+	background-color: #4180AB;
+	text-align: center;
+	width: auto;
+	height: 120px;
+	margin-top: -25px;
+	margin-left: -25px;
+	margin-right: -25px;
+	padding-top: 25px;
+}
+h1 {
+	color: #FFFFFF;
+}
+
+div.h1 {
+	background-color: #4180AB;
+	text-align: center;
+	width: 600px;
+	height: 40px;
+}
+/* div para el menu de ejemplos*/
+div.posicion {
+	background-color: #BDD1DE;
+	text-align: left;
+	width: 250px;
+	height: 150px;
+	padding-left: 10px;
+	margin-left: 20px;
+}
+li {
+	margin-left: 20px;
+}
+div.visual {
+	background-color: #BDD1DE;
+	text-align: left;
+	width: 250px;
+	height: 150px;
+	padding-left: 10px;
+	margin-left: 320px;
+	margin-top: -170px;
+}
+div.center {
+	/*background-color: #E4EBF0;*/
+	background-color: #FFFFFF;
+	width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+div.boton {
+	background-color: #4180AB;
+	width: 50px;
+	height: auto;
+	margin-left: 20px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+}
+footer {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: 268px;
+}
+
+a:hover {
+	text-decoration: blink;
+	color: white;
+}
+
+/*Posicionamiento normal*/
+div.caja1 {
+	margin-top:30px;
+	position: static;
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+}
+div.caja2 {
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+/*Posicionamiento relativo*/
+div.caja1_2 {
+	margin-top:30px;
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+}
+div.caja2_2 {
+	position: relative;
+	top: 200px;
+	left: 150px;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+}
+/*Posicionamiento absoluto*/
+div.caja1_3 {
+	margin-top:30px;
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+}
+div.caja2_3 {
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+/*Posicionamiento fijo*/
+div.caja1_4 {
+	margin-top:30px;
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+}
+div.caja2_4 {
+	position: fixed;
+	top: 200px;
+	left: 150px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+/*Posicionamiento flotante*/
+div.caja1_5 {
+	margin-top:30px;
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+}
+div.caja2_5 {
+	float: right;
+	top: 200px;
+	left: 150px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+/*propiedades visibility y display*/
+div.caja1_6 {
+	margin-top:30px;
+	background-color: yellow;
+	width: 300px;
+	height: 200px;
+}
+div.caja2_6 {
+	display: none;
+	top: 200px;
+	left: 150px;
+	background-color: green;
+	width: 200px;
+	height: 200px;
+}
+div.caja3_6 {
+	visibility: hidden;
+	top: 200px;
+	left: 150px;
+	background-color: blue;
+	width: 200px;
+	height: 200px;
+}
+/*Propiedad overflow */
+div.caja1_7 {
+	margin-top:30px;
+	overflow: scroll;
+	background-color: yellow;
+	width: 100px;
+	height: 150px;
+}
+div.caja2_7 {
+	overflow: hidden;
+	background-color: yellow;
+	width: 100px;
+	height: 150px;
+	margin-left: 100px;
+}
+div.caja3_7 {
+	overflow: visible;
+	background-color: yellow;
+	width: 100px;
+	height: 150px;
+	margin-left: 200px;
+}
+/*propiedad z-index*/
+div.caja1_8 {
+	position:absolute;
+	z-index: 5;
+	top: 1em;
+	left: 8em;
+	background-color: blue;
+	margin-top: 150px;
+}
+div.caja2_8 {
+	position:absolute;
+	z-index: 15;
+	top: 2.8em;
+	left: 5em;
+	background-color: yellow;
+	margin-top: 150px;
+}
+
+div.caja3_8 {
+	position:absolute;
+	z-index: 25;
+	top: 2em;
+	left: 2em;
+	background-color: red;
+	margin-top: 150px;
+}
